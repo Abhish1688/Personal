@@ -1,0 +1,154 @@
+html {
+  position: relative;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  font-family: arial, sans-serif;
+  font-size: 17px;
+  color: #074c4cd9;
+  box-sizing: border-box;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url("images/3.jpg");
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.heading {
+  background-image: linear-gradient(rgb(81 208 195 / 64%), rgb(228 110 186 / 41%));
+  border-style: groove;
+  border-width: thin;
+  border-radius: 10px;
+  border-color: #c7bac057;
+  overflow: auto;
+  margin: 15px 15px 15px 15px;
+  position: relative;
+}
+
+h1 {
+  text-align: left;
+  font-style: oblique;
+  text-shadow: 3px 8px 20px grey;
+  color: rgba(150,50,100,0.8);
+  font-family: "Times New Roman", serif;
+  margin-left: 17px;
+}
+
+.P_heading {
+  text-align: justify;
+  text-indent: 0%;
+  margin-right: 17px;
+  margin-left: 17px;
+}
+
+img {
+  float: left;
+  margin: 0 17px 17px 17px;
+  height: 160px;
+  clip-path: circle(40% at 50% 40%);
+}
+
+.links {
+  clear: left;
+  position: absolute;
+  right: 0;
+  margin: 0 17px 17px 0;
+  bottom: 0;
+}
+
+a {
+  background-color: #2159b7a1;
+  color: white;
+  padding: 8px;
+  border-radius: 40px;
+  margin-left: 10px;
+  text-decoration: none;
+  box-shadow: 5px 10px 20px #3700ffe6;
+}
+
+.centerblock {
+  width: 100%;
+  overflow: auto;
+}
+
+.centerplace {
+  padding: 15px;
+  display: table;
+  border-spacing: 0px;
+}
+
+.hobbies {
+  display: table-cell;
+  width: 45%;
+  border-style: groove;
+  border-width: thin;
+  border-radius: 10px;
+  border-color: #009688;
+  background-image: linear-gradient(rgb(140 100 218 / 64%), rgb(123 228 110 / 41%));
+  box-sizing: border-box;
+}
+
+h2, h3 {
+  text-align: left;
+  text-shadow: 3px 8px 20px grey;
+  color: rgb(76 17 47 / 80%);
+  font-family: "Times New Roman", serif;
+  margin-left: 17px;
+}
+
+.P_hobbies, .P_note {
+  text-align: justify;
+  text-indent: 0%;
+  margin-right: 17px;
+  margin-left: 17px;
+}
+
+.tableclass {
+  width: 100%;
+  overflow: auto;
+}
+
+table {
+  border-spacing: 20px 10px;
+  font-family: arial, sans-serif;
+  font-size: 17px;
+  margin-left: 17px;
+  margin-right: 17px;
+  background-color: #63606075;
+}
+
+td {
+  width: 25%;
+  text-align: center;
+}
+
+.star {
+  color: #efc703;
+}
+
+.blank {
+  display: table-cell;
+  width: 27%;
+  background-image: linear-gradient(rgb(140 100 218 / 0%), rgb(123 228 110 / 0%));
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.note {
+  width: 28%;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: table-cell;
+  padding-right: 0.65%;
+  padding-left: 0.65%;
+}
